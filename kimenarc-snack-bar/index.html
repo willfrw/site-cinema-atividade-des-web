@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Produtos para aproveitar enquanto
-        assiste a um bom filme</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script href="assets/code/code.js"></script>
+    <link rel="icon" href="assets/img/kimenarc-logotipo.png">
+    <title>
+        
+        Produtos para aproveitar enquanto
+        assiste a um bom filme
+    </title>
 </head>
 <body>
-    <article>
-        <header>
+    <header>
+        <div id="logo">
+            <img src="assets/img/kimenarc-logo.png" alt="">
+        </div>
+        <div>
             <h1 id="titulo">Produtos para aproveitar enquanto assiste a um bom filme</h1>
-        </header>
-
-    </article>
-    <article id="tabela-precos">
+        </div>            
+    </header>
+    <div id="texto-venda">
         <p>Aproveite para comprar suas bebidas, pipocas, petiscos e doces para saborear enquanto assiste a um filme</p>
+    </div>    
+    
+    <div class="container">
+        
         <table>
             <tr>
                 <th>
@@ -24,7 +35,25 @@
                 <th>
                     Preço
                 </th>
+                <th>
+                    Aproveite!
+                </th>
             </tr>
+            
+            <tr class="item">
+                <td>
+                    Refri 500ml 
+                </td>
+                <td class="right">
+                    R$ 10,00
+                </td>
+                <td class="right">
+                    <button class="button">
+                        <a href="manut.html">Comprar</a>
+                    </button>                 
+                </td>
+            </tr>
+        <!--
             <tr>
                 <td>
                     Refri 500ml 
@@ -49,6 +78,8 @@
                     R$ 8,00
                 </td>
             </tr>
+
+        
             <tr>
                 <td>
                     Pipoca Pequena Salgada 
@@ -97,9 +128,13 @@
                     R$ 30,00
                 </td>
             </tr>
+            -->
         </table>
-    </article>
-    <article>
+    </div>
+
+        
+
+
         <p>Confira os combos disponíveis pessoalmente na nossa bomboniere.
             Abaixo seguem algumas sugestões:</p> 
         <ul>
@@ -108,6 +143,6 @@
             <li>Combo Pipocas Doces e Salgadas: 2 pipocas grandes, uma doce e
                 uma salgada</li>
         </ul>
-    </article>
+
 </body>
 </html>

@@ -1,219 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/style.css">
-    <script href="assets/code/code.js"></script>
-    <link rel="icon" href="assets/img/kimenarc-logotipo.png">
-    <title>
-        Kimenarc - Snack Bar
-    </title>
+    <script src="assets\funções\funcoes.js"></script>
+    <title>Formulário de Cadastro - Centro de Reabilitação</title>
 </head>
 <body>
-    <header>
-        
-        <div id="logo">
-            <h1><a href="manut.html"><img src="assets/img/kimenarc-logo.png" alt=""></a></h1>
-        </div>
-        
-        <br>
-        <div>
-            <nav><button class="nav-button"><h1><a href="manut.html">Home</h1></a></button></nav>            
-        </div>        
-        <div>
-            <nav><button class="nav-button"><h1><a href="manut.html">Em Cartaz</h1></a></button></nav>            
-        </div> 
-        <div>
-            <nav><button class="nav-button"><h1><a href="index.html">Snack Bar</h1></a></button></nav>            
-        </div> 
-
-        
-        
-        
-    </header>
-    <div>
-        <h1 id="titulo">
-            Produtos para aproveitar enquanto
-            assiste a um bom filme    
-        </h1>
-    </div>  
-    <div id="texto-venda">
-        <p>Aproveite para comprar suas bebidas, pipocas, petiscos e doces para saborear enquanto assiste a um filme</p>
-    </div>    
-    
     <div class="container">
-        
+        <div class="form-image">
+            <img src="assets/img/refri-pipoca.jpg" alt="">
         </div>
-        <table>
-            <tr>
-                <th>
-                    Produto
-                </th>
-                <th>
-                    Preço
-                </th>
-                <th>
-                    Aproveite!
-                </th>
-            </tr>
-            
-            <tr class="item">
-                <td>
-                    Refri 500ml 
-                </td>
-                <td class="right">
-                    R$ 10,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Anamnese</h1>
+                    </div>
+                    <div class="profile-picture">
+                        <button><a href="#">Foto</a></button>
+                    </div>
+                </div>
 
-            <tr>
-                <td>
-                    Refri 500ml 
-                </td>
-                <td>
-                    R$ 10,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Refri 700 ml 
-                </td>
-                <td>
-                    R$ 12,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Água com e sem gás 500ml 
-                </td>
-                <td>
-                    R$ 8,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
+                <div class="input-group">
 
-        
-            <tr>
-                <td>
-                    Pipoca Pequena Salgada 
-                </td>
-                <td>
-                    R$ 15,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Pipoca Média Salgada 
-                </td>
-                <td>
-                    R$ 20,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Pipoca Grande Salgada  
-                </td>
-                <td>
-                    R$ 25,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Pipoca Pequena Doce 
-                </td>
-                <td>
-                    R$ 18,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Pipoca Média Doce 
-                </td>
-                <td>
-                    R$ 24,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Pipoca Grande Doce 
-                </td>
-                <td>
-                    R$ 30,00
-                </td>
-                <td class="right">
-                    <button class="qnt-button">
-                        <input type="number" min="0">
-                    </button>                 
-                </td>
-            </tr>
+                    <div class="input-box">
+                        <label for="prontuario">Prontuário</label>
+                        <input id="prontuario" type="number" min="1" name="prontuario" placeholder="Número de Prontuário" required>
+                    </div>
 
-        </table>
+                    <div class="input-box">
+                        <label for="date">Data de Acolhimento</label>
+                        <input id="date" type="date" name="date" placeholder="" required>
+                    </div>
 
-        <div class="image-container">
-            <img src="assets\img\refri-pipoca.jpg" alt="Refrigerante e pipoca">
+                    <div class="input-box">
+                        <label for="fullname">Nome Completo</label>
+                        <input id="fullname" type="text" name="fullname" placeholder="Digite o nome completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="birth-date">Data de Nascimento</label>
+                        <input id="birth-date" type="date" name="birth-date" placeholder="" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="naturalness">Naturalidade</label>
+                        <input id="naturalness" type="text" name="naturalness" placeholder="Digite a naturalidade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="gender">Gênero</label>
+                        <select name="gender" id="gender">
+                            <option value="">Selecione um gênero</option>
+                            <option value="female">Feminino</option>
+                            <option value="male">Marculino</option>
+                            <option value="others">Outros</option>
+                            <option value="none">Prefiro não dizer</option>
+                        </select>                     
+                    </div>
+
+                    <div class="input-box">
+                        <label for="rg">Identidade</label>
+                        <input id="rg" oninput="mascaraRG(this)" type="text" name="rg" placeholder="Digite a identidade (RG)" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" oninput="mascaraCPF(this)" type="text" name="cpf" placeholder="Digite o CPF" required>
+                    </div>
+                                         
+                </div>
+<!--
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+-->
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
         </div>
     </div>
-
-        
-
-    <div>
-        <p>Confira os combos disponíveis pessoalmente na nossa bomboniere.
-            Abaixo seguem algumas sugestões:</p> 
-        <ul>
-            <li>Combo Big: 2 pipocas grandes salgadas e 2 refri de 700ml</li>
-            <li>Combo Duplo: 2 pipocas médias salgadas e 2 refri de 500ml</li>
-            <li>Combo Pipocas Doces e Salgadas: 2 pipocas grandes, uma doce e
-                uma salgada</li>
-        </ul>
-    </div>
-    <footer>
-        <h1><a href="manut.html"><img src="assets/img/kimenarc-logo.png" alt=""></a></h1>
-        <h6>All rights not reserved.</h6>
-    </footer>
 </body>
 </html>

@@ -1,45 +1,117 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
+/* Reset and Defaults */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', 'sans-serif';
 }
 
+/* Global Styles */
 body {
-    padding: 2px;
-    margin: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #000;
+    color: white;
+    padding: 10px;
     min-height: 100vh;
-    width: 100vw;
-    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Header Styles */
 header {
-    align-items: top;
     display: flex;
-    font-size: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%; 
 }
 
-#texto-venda {
-    padding: 2px;
-    font-size: 18px;
-    display: flex;
-    align-self: center;
-    margin: 10px;
+header a {
+    text-decoration: none;
+    color: #000;
 }
 
+.nav-container {
+    display: flex;
+}
+
+.nav-button {
+    background-color: rgb(241, 141, 76);
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.nav-button:hover {
+    background-color: rgb(251, 151, 86);
+}
+
+#titulo {
+    color: rgb(17, 14, 189);
+}
+
+/* Logo Styles */
 #logo img {
     padding: 10px;
     width: 216px;
     height: auto;
+    align-self: flex-start;
 }
 
+/* Content Styles */
+#texto-venda {
+    padding: 10px;
+    font-size: 18px;
+    align-self: center;
+    margin: 20px 0;
+}
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid white;
+    margin-left: 20px;
+    align-self: flex-end;
+}
 
+/* Table Styles */
+table {
+    max-width: 50%;
+    flex: 1;
+    margin-right: 20px;
+    border-collapse: collapse;
+    
+}
 
+table, th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
 
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
 
-
-
+footer img {
+    width: 80px;
+    height: auto;
+}

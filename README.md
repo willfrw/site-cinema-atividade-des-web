@@ -14,8 +14,9 @@ Observe que a figura não deve ficar desformatada.
 pipocas, petiscos e doces para saborear enquanto assiste a um filme”
 - Deve ter uma tabela com o título “Produtos disponíveis”, com o formato
 abaixo:
-| Produto                    | Preço     |
-|-----------------------------|----------|
+
+| Produto | Preço |
+|---|---|
 | Refri 500ml                 | R$ 10,00 |
 | Refri 700 ml               | R$ 12,00 |
 | Água com e sem gás 500ml   | R$ 8,00  |
@@ -26,9 +27,12 @@ abaixo:
 | Pipoca Média Doce          | R$ 24,00 |
 | Pipoca Grande Doce         | R$ 30,00 |
 
+
 Confira os combos disponíveis pessoalmente na nossa bomboniere.
 Abaixo seguem algumas sugestões:
-● Combo Big: 2 pipocas grandes salgadas e 2 refri de 700ml
-● Combo Duplo: 2 pipocas médias salgadas e 2 refri de 500ml
-● Combo Pipocas Doces e Salgadas: 2 pipocas grandes, uma doce e
+
+
+- Combo Big: 2 pipocas grandes salgadas e 2 refri de 700ml
+- Combo Duplo: 2 pipocas médias salgadas e 2 refri de 500ml
+- Combo Pipocas Doces e Salgadas: 2 pipocas grandes, uma doce e
 uma salgada

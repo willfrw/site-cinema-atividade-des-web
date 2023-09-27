@@ -1,14 +1,11 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
-/* Reset and Defaults */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global Styles */
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #000;
@@ -21,7 +18,6 @@ body {
     align-items: center;
 }
 
-/* Header Styles */
 header {
     display: flex;
     flex-direction: row;
@@ -58,10 +54,9 @@ header a {
 }
 
 #titulo {
-    color: rgb(17, 14, 189);
+    color: rgb(66, 64, 218);
 }
 
-/* Logo Styles */
 #logo img {
     padding: 10px;
     width: 216px;
@@ -69,8 +64,7 @@ header a {
     align-self: flex-start;
 }
 
-/* Content Styles */
-#texto-venda {
+#textoVenda {
     padding: 10px;
     font-size: 18px;
     align-self: center;
@@ -79,33 +73,86 @@ header a {
 
 .container {
     display: flex;
+    border: 1px solid rgb(251, 151, 86);
     align-items: center;
     justify-content: space-between;
 }
 
 .image-container img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid white;
-    margin-left: 20px;
-    align-self: flex-end;
+    max-width: auto;
+    height: 100%;
+    margin: 10px;
 }
 
-/* Table Styles */
 table {
-    max-width: 50%;
+    max-width: 70%;
     flex: 1;
-    margin-right: 20px;
-    border-collapse: collapse;
-    
+    border-collapse: collapse; 
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid rgb(251, 151, 86);
+    min-width: 125px;
     padding: 10px;
 }
 
-/* Footer Styles */
+.qntButton {
+    height: 25px;
+    width: 80px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: rgb(251, 151, 86);
+    margin-left: 14px;
+}
+
+.qntButton input {
+    height: 90%;
+    width: 80%;
+    align-self: center;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#totalTd {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px white;
+}
+
+#buyButton {
+    min-width: 98%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(110, 202, 110);
+    text-align: center;
+}
+
+#buyButton a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+#total {
+    color: rgb(120, 177, 36);
+    font-size: 24px;
+}
+
+
+
+#combo {
+    margin: 20px;
+}
+
+#combo ul, li {
+    align-items: center;
+    margin: 10px;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
